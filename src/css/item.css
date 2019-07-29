@@ -1,0 +1,29 @@
+.box {
+    height: 100%;
+}
+
+.box-label:first-child {
+    margin-top: 20px;
+}
+
+.box-label {
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.box-label > label {
+    font-weight: bold;
+    color: #2E2539;
+}
+
+
+.box-label > span {
+    font-weight: bold;
+    color: #2E2539;
+}
+
+.box-label > a {
+    font-weight: bold;
+    color: #e5e0eb;
+}
+

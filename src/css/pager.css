@@ -1,0 +1,68 @@
+#pager {
+    position: absolute; 
+    top: 90%;
+    left: 20vw;
+    height: 7%;
+    width: 330px;
+    text-align: center;
+}
+
+.pager-page {
+    display: inline-block;
+    background: rgb(245, 240, 240);
+    width: 20px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 30px;
+    color:  rgb(65, 60, 60);
+    border-radius: 5px;
+    border: 1px solid   #cccccc;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 10px; 
+}
+
+.pager-page-active {
+    background: rgb(65, 60, 60); 
+    color:  #DDDDDD;
+}
+
+.pager-page:hover {
+    cursor: pointer;
+    background: rgb(156, 151, 151);
+}
+
+.pager-button {
+    background: rgb(245, 240, 240);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    color:  rgb(65, 60, 60);
+    border-radius: 5px;
+    border: 1px solid  #cccccc;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 10px;
+    outline: none;
+}
+
+button:nth-of-type(2) {
+    margin-right: 10px;
+}
+
+button:nth-of-type(3) {
+    margin-left: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(156, 151, 151);
+}
+
+button:disabled {
+    background: #DDDDDD;
+    color: rgb(158, 158, 158);
+  }
+

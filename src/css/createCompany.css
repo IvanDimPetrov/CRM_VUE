@@ -1,0 +1,85 @@
+#create-company {
+    position: absolute;
+    width: 29%;
+    height: 87%;
+    top: 12%;
+    left: 70%;
+    box-shadow: 1px 1px 5px rgb(112, 107, 107);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+#create-company > h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+.create-company-inputs{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.create-company-inputs label {
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+}
+
+
+.create-company-inputs input {
+    font-size: 2.0vh;
+    margin-top: 1vh;
+    height: 40%;
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid #cccccc;
+    outline: none;
+    padding-left: 5px; 
+    box-sizing:border-box;
+}
+
+.create-company-buttons {
+    width: 90%;
+    height: 6%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.create-company-buttons:last-child {
+    margin-top: 2vh;
+} 
+
+.create-company-buttons button {
+    background:  rgb(160, 159, 159);
+    width: 47.5%;
+    height: 100%;
+    border-radius: 5px;
+    border:1px solid #cccccc;
+    outline: none;
+    font-size: 2vh;
+}
+
+.create-company-buttons button:first-child {
+    margin-right:  5%;
+}
+
+.create-company-buttons button:hover {
+    background: #3B3939;
+    cursor: pointer;
+    color:  #DDDDDD;
+}
+
+.create-company-buttons button:disabled {
+    background:  rgb(218, 216, 216);
+    cursor: default;
+    color: rgb(110, 108, 108);
+}
+
+

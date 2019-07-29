@@ -1,0 +1,10 @@
+#settings {
+    position: absolute;
+    width: 98%;
+    height: 10%;
+    top: 1%;
+    left: 1%;
+    box-shadow: 1px 1px 5px rgb(112, 107, 107);
+    border-radius: 10px;
+    display: flex;
+}
