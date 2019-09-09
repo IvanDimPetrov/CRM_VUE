@@ -86,7 +86,7 @@
 
                 if (endIndex > pages.length) {
                     endIndex = pages.length;
-                    startIndex = endIndex - this.visiblePagesCount;
+                    startIndex = endIndex - this.visiblePagesCount < 0 ? 0 : endIndex - this.visiblePagesCount;
                 }
 
                 let slicedPages = pages.slice(startIndex, endIndex);

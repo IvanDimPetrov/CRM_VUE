@@ -70,9 +70,6 @@
                 let sortingName = this.nameOrder;
                 let sortingdateCreated = this.dateCreatedOrder;
                 function sortingCompanies(a, b)  {
-                    // let resdate = sortingName(a, b) 
-                    // console.log(resdate); 
-                    console.log(sortingName(a, b) || sortingdateCreated(a, b))
                     
                     return sortingName(a, b) && sortingdateCreated(a, b);
                 }
