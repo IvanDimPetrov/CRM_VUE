@@ -40,7 +40,7 @@
         },
         data() {
             return {
-                limit: 1,
+                limit: 5,
                 startIndex: 0
             }
         },
